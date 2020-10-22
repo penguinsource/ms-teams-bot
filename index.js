@@ -1,17 +1,19 @@
 const fetch = require('node-fetch')
 
-const clientid = '66ccd97c-e2af-49be-be68-2e9134c5db66';
-const clientsecret = 'rg536lAIILq6I3bjdi57qDk8-2_SY~_-c_';
+const tenantId = ""     // REQUIRED
 
-const botId ='28:66ccd97c-e2af-49be-be68-2e9134c5db66'
-const botName = 'GSB Ngrok 5'
+const clientid = '66ccd97c-e2af-49be-be68-2e9134c5db66';    // Hard-coded value for myself
+const clientsecret = 'rg536lAIILq6I3bjdi57qDk8-2_SY~_-c_';  // Hard-coded value for myself
 
-const userId = '29:18-jVX_tICg2oyrqOJdSnAzgQD-G2kzGaz12lOxtoZf_CZJ-c3RFfU0GxkpTH94KeAuYrz4pmD7nK0VKZM8C9kg'
-const userName = 'Mihai Oprescu'
+const botId ='28:66ccd97c-e2af-49be-be68-2e9134c5db66'      // Hard-coded value for myself
+const botName = 'GSB Ngrok 5'                               // Hard-coded value for myself
 
-const tenantId = "abaf94be-b9bd-4ae3-a35d-84f393cea8dc"
+const userId = '29:18-jVX_tICg2oyrqOJdSnAzgQD-G2kzGaz12lOxtoZf_CZJ-c3RFfU0GxkpTH94KeAuYrz4pmD7nK0VKZM8C9kg' // Hard-coded value for myself
+const userName = 'Mihai Oprescu'  // Hard-coded value for myself
 
-const serviceUrl = 'https://smba.trafficmanager.net/apis'
+
+// const serviceUrl = 'https://smba.trafficmanager.net/apis'
+const serviceUrl = 'https://smba.trafficmanager.net/amer'
 
 const getToken = async () => {
   const defaultScope = 'https://api.botframework.com/.default'
