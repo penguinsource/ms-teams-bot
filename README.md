@@ -17,5 +17,5 @@ Hi!
 
 Send me questions about this at email mihai@getspeedback.com
 
-Automated Employee Performance Reviews
-https://getspeedback.com
+Visit my website GetSpeedBack - Automated Employee Performance Reviews at https://getspeedback.com
+
