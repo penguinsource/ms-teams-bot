@@ -2,6 +2,7 @@
 
 ## install
 npm install
+
 node index.js
 
 ## what is it?
