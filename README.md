@@ -12,3 +12,6 @@ Sample code for getting started with the Bot Framework and Microsoft Teams:
 - send a message to a user
 
 
+
+Automated Employee Performance Reviews
+https://getspeedback.com
